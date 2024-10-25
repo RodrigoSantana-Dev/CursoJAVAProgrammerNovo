@@ -1,0 +1,7 @@
+F5 - Percorre todo o processo do codigo, ate mesmo a estrutura interna dos comandos.
+
+F6 - Percorre toda linha do codigo.
+
+F8 - Percorre os BrakPoit. 
+
+F11 - Excecuta o camando. 
