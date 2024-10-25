@@ -17,10 +17,10 @@ public class Principal {
 		
 		System.out.println("##### CADASTRO DO PROGRAMADOR #####");
 		
-		System.out.println("Digite o nome ;");
+		System.out.println("Digite o nome: ");
 		programador.nome = entradaDados.next();	
 		
-		System.out.println(programador.nome + " Digite a Linguagem de programação");
+		System.out.println(programador.nome + " Qual é Linguagem de programação");
 		programador.linguagem = entradaDados.next();
 		
 		System.out.println("*********RESULTADO************");
@@ -37,7 +37,7 @@ public class Principal {
 		System.out.println("Digite o seu Nome: ");
 		admBanco.nome = entradaDados.next();
 
-		System.out.println(admBanco.nome + " Tipo De Banco: ");
+		System.out.println(admBanco.nome + " Qual é o Tipo De Banco: ");
 		admBanco.TipoDeBancoDados = entradaDados.next();
 
 		System.out.println("*********RESULTADO************");
