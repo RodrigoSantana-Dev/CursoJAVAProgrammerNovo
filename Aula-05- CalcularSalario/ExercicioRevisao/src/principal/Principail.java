@@ -1,7 +1,7 @@
 package principal;
 
 import java.util.Scanner;
-//import Servicos.Calcular;
+
 public class Principail {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Principail {
 		double numero1;
 		double numero2;
 		
-	//	Calcular calcular = new Calcular();
+
 		Scanner entradaDados = new Scanner(System.in);
 		
 		System.out.println("'''''Digitar o primeiro numero:'''''''");
