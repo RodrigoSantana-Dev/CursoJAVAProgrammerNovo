@@ -2,49 +2,23 @@ package entidades;
 
 public class Pessoa {
 	
-	
-	/*Cadastro de Pessoa:
-
-	Pessoa:
-	Nome
-	Cpf
-
-	Receba os dados do usuario e apresente os dados inseridos
-	
-*/	
-	
 	private String Nome;
-	private String Cpf;	
-	
-	
-	
-	
-	public String getNome() {
+	private String Cpf;
 		
-		
-		return this.Nome;
-					
-	}
-	
-		public void setNome(String NomeRecebido) {
-		
-		this.Nome = NomeRecebido;
-	}
 
-	
-	
-	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
 	public String getCpf() {
-		
-		
-		return this.Cpf;
+		return Cpf;
 	}
-	
-	public void setCpf(String CpfRecebe) {
-		
-		this.Cpf = CpfRecebe;
+	public void setCpf(String cpf) {
+		Cpf = cpf;
 	}
 	
 	
-	
+
 }
